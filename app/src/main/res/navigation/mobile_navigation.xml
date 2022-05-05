@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.annisamytechnologyapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_technology"
+        android:name="com.example.annisamytechnologyapp.ui.technology.TechnologyFragment"
+        android:label="@string/menu_technology"
+        tools:layout="@layout/fragment_technology" />
+
+    <fragment
+        android:id="@+id/nav_handphone"
+        android:name="com.example.annisamytechnologyapp.ui.handphone.HandphoneFragment"
+        android:label="@string/menu_handphone"
+        tools:layout="@layout/fragment_handphone">
+        <action
+            android:id="@+id/action_technologyFragment_to_handphoneFragment"
+            app:destination="@id/nav_technology" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_laptop"
+        android:name="com.example.annisamytechnologyapp.ui.laptop.LaptopFragment"
+        android:label="@string/menu_laptop"
+        tools:layout="@layout/fragment_laptop">
+        <action
+            android:id="@+id/action_technologyFragment_to_laptopFragment"
+            app:destination="@id/nav_technology" />
+    </fragment>
+</navigation>

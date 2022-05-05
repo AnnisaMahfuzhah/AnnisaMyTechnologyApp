@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AnnisaMyTechnologyApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Annisa Technology List</string>
+    <string name="nav_header_subtitle">mahfuzhahannisa@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_technology">Technology</string>
+    <string name="menu_handphone">Handphone</string>
+    <string name="menu_laptop">Laptop</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="samsung_s22_ultra">Samsung Galaxy S22 Ultra</string>
+    <string name="samsung_s22">Samsung Galaxy S22</string>
+    <string name="samsung_z_fold3">Samsung Galaxy Z Fold3 5G</string>
+    <string name="samsung_a33">Samsung Galaxy A33 5G</string>
+
+    <string name="samsung_s22_ultra_kapasitas">128GB | 8GB</string>
+    <string name="samsung_s22_kapasitas">128GB | 8GB</string>
+    <string name="samsung_z_fold3_kapasitas">256GB | 12GB</string>
+    <string name="samsung_a33_kapasitas">128GB | 8GB</string>
+
+    <string name="asus_zenbook">ASUS Zenbook Pro Duo 15 OLED (UX582)</string>
+    <string name="asus_expertbook_b9">ASUS ExpertBook B9 B9450</string>
+    <string name="asus_vivobook">ASUS Vivobook Pro 16X OLED</string>
+    <string name="asus_expertbook_b5_flip">ASUS ExpertBook B5 Flip</string>
+
+    <string name="asus_zenbook_kapasitas">Up to 32 GB 2933 MHz DDR4 | Up to 1 TB M.2 NVMe™ PCIe® 3.0 Performance SSD</string>
+    <string name="asus_expertbook_b9_kapasitas">8GB / 16GB 2133MHz LDDR3 onboard (dual channel support) | Dual M.2 NVMe PCIe® 3.0 x4 512GB / 1TB SSD (up to dual 1TB)</string>
+    <string name="asus_vivobook_kapasitas">16GB DDR4 on board | 1TB M.2 NVMe™ PCIe® 3.0 SSD</string>
+    <string name="asus_expertbook_b5_flip_kapasitas">16GB DDR4 on board , Memory Max Up to:48GB | 512GB M.2 NVMe™ PCIe® 3.0 SSD</string>
+</resources>
